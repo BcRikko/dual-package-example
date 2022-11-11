@@ -5,12 +5,15 @@
   "description": "Client",
   "main": "index.js",
   "scripts": {
-    "bundle": "esbuild ./es/index.js --outfile=./es/dist/bundle.js --bundle"
+    "bundle": "esbuild ./es/index.js --outfile=./es/dist/bundle.js --bundle",
+    "bundle-ts": "tsc --noEmit --project ./ts/tsconfig.json && esbuild ./ts/index.ts --outfile=./ts/dist/bundle.js --bundle"
   },
   "dependencies": {
-    "mypackage": "file:../mypackage"
+    "mypackage": "file:../mypackage",
+    "mytspackage": "file:../mytspackage"
   },
   "devDependencies": {
-    "esbuild": "^0.15.13"
+    "esbuild": "^0.15.13",
+    "typescript": "^4.8.4"
   }
 }
