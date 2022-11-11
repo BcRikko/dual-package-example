@@ -5,9 +5,12 @@
   "description": "Client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "esbuild ./es/index.js --outfile=./es/dist/bundle.js --bundle"
   },
   "dependencies": {
     "mypackage": "file:../mypackage"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.13"
   }
 }
