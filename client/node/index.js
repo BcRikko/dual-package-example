@@ -1,4 +1,4 @@
-const myPkg = require('mypackage')
+const myPkg = require('pkg-js')
 
 const msg = myPkg.hello('rikko')
 

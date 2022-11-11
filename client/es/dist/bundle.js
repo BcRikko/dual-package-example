@@ -1,5 +1,5 @@
 (() => {
-  // ../mypackage/lib/mypackage.mjs
+  // ../pkg-js/lib/pkg-js.mjs
   var hello = (name) => `Hello ${name}!`;
 
   // es/index.js

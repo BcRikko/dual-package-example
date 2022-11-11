@@ -9,8 +9,8 @@
     "bundle-ts": "tsc --noEmit --project ./ts/tsconfig.json && esbuild ./ts/index.ts --outfile=./ts/dist/bundle.js --bundle"
   },
   "dependencies": {
-    "mypackage": "file:../mypackage",
-    "mytspackage": "file:../mytspackage"
+    "pkg-js": "file:../pkg-js",
+    "pkg-ts": "file:../pkg-ts"
   },
   "devDependencies": {
     "esbuild": "^0.15.13",

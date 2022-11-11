@@ -1,5 +1,5 @@
 {
-  "name": "mypackage",
+  "name": "pkg-js",
   "version": "0.0.1",
   "author": "BcRikko",
   "description": "My SUGOI Package",
@@ -8,8 +8,8 @@
   ],
   "type": "module",
   "exports": {
-    "import": "./lib/mypackage.mjs",
-    "require": "./lib/mypackage.cjs"
+    "import": "./lib/pkg-js.mjs",
+    "require": "./lib/pkg-js.cjs"
   },
   "scripts": {
     "build": "rollup --config rollup.config.js"

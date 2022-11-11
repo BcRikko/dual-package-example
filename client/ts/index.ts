@@ -1,7 +1,7 @@
 import {
   hello,
   Props
-} from 'mytspackage'
+} from 'pkg-ts'
 
 const props: Props = 'rikko'
 

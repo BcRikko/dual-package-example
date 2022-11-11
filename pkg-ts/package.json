@@ -1,5 +1,5 @@
 {
-  "name": "mytspackage",
+  "name": "pkg-ts",
   "version": "0.0.1",
   "author": "BcRikko",
   "description": "My SUGOI TypeScritp Package",
@@ -8,8 +8,8 @@
   ],
   "type": "module",
   "exports": {
-    "import": "./lib/mytspackage.mjs",
-    "require": "./lib/mytspackage.cjs"
+    "import": "./lib/pkg-ts.mjs",
+    "require": "./lib/pkg-ts.cjs"
   },
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript"

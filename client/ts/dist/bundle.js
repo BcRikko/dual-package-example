@@ -1,5 +1,5 @@
 (() => {
-  // ../mytspackage/lib/mytspackage.mjs
+  // ../pkg-ts/lib/pkg-ts.mjs
   var hello = (name) => `Hello ${name}!`;
 
   // ts/index.ts
